@@ -5,7 +5,7 @@ import GetPut::*;
 
 (* synthesize *)
 module testbench();
-   
+
     FibServerT#(8)  fib    <- mkFibServer;
     Reg#(UInt#(8))  n      <- mkReg(0);
     FIFO#(UInt#(8)) inputs <- mkSizedFIFO(4);
