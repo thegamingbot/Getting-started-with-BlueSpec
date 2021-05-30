@@ -29,7 +29,7 @@ package TestBench;
         endrule
 
         rule r2 (step == 2);
-            print(True, -7);
+            print(True, -8);
             step <= 3;
         endrule
 
